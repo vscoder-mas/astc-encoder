@@ -272,5 +272,6 @@ int main(
 		return 1;
 	}
 
+	printf("+++++++++++++++++++++++++ main +++++++++++++++++++++++++\n");
 	return astcenc_main(argc, argv);
 }
